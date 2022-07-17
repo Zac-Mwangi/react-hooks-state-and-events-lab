@@ -9,7 +9,7 @@ function ShoppingList({ items }) {
   }
   
   const categorySelected = items.filter((item) => {
-    return selectedCategory === "All" ? Item : item.category ==selectedCategory
+    return selectedCategory === "All" ? Item : item.category == selectedCategory
   });
 
   return (
